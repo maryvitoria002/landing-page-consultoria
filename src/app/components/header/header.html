@@ -1,1 +1,19 @@
-<p>header works!</p>
+<header class="app-header">
+  <a class="app-header__logo" routerLink="/">
+    <img ngSrc="assets/logo.png" alt="Logo" width="220" height="75" />
+  </a>
+
+  <nav class="app-header__nav">
+    <ul>
+      <li><a routerLink="/">Início</a></li>
+      <li><a routerLink="/services">Serviços</a></li>
+      <li><a routerLink="/differentials">Diferenciais</a></li>
+      <li><a routerLink="/testimonials">Depoimentos</a></li>
+      <li><a routerLink="/contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <a class="app-header__button" routerLink="/contact">
+    Agende uma conversa
+  </a>
+</header>
